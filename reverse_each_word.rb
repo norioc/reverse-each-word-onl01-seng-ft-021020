@@ -3,7 +3,7 @@ def reverse_each_word(sentence)
   old_sentence.each do |word| 
   word.reverse 
 end
-  word.join << old_sentence
+  new_sentence = old_sentence.join 
 end
 
 

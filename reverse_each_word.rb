@@ -6,7 +6,7 @@ def reverse_each_word(sentence)
   new_sentence << word.reverse 
   
 end
-  word.join(" ")
+  response new_sentence
   
 end
 

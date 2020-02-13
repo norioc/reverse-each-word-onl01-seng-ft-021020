@@ -2,7 +2,7 @@ def reverse_each_word(sentence)
   new_sentence = []
   old_sentence = sentence.split
   old_sentence.each do |word| 
-  << word.reverse 
+  new_sentence << word.reverse 
   
 end
   

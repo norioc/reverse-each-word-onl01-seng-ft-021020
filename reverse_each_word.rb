@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   word.reverse 
 end
   new_sentence = old_sentence.join 
-  puts new_sentence
+  
 end
 
 

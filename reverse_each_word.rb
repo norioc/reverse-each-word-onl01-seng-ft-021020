@@ -16,4 +16,4 @@ def reverse_each_word(sentence)
   old_sentence.collect do |word| 
   word.reverse 
 end
-  
+end
